@@ -34,8 +34,11 @@ module.exports.routes = {
 
   '/': {
     view: 'homepage'
+  },
+  
+  '/todo' :{
+      view:'todo'
   }
-
   /***************************************************************************
   *                                                                          *
   * Custom routes here...                                                    *
